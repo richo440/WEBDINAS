@@ -1,0 +1,8 @@
+export const artikelNews = "http://adminmesuji.embuncode.com/api/news?instansi_id=40&per_page=6"
+export const newsDetail = "http://adminmesuji.embuncode.com/api/news/"
+export const artikelMain = "http://adminmesuji.embuncode.com/api/article?instansi_id=40&per_page=3"
+export const artikelDetail = "http://adminmesuji.embuncode.com/api/article/"
+export const sliderNews = "http://adminmesuji.embuncode.com/api/news?instansi_id=8&per_page=3"
+export const galeriImg = "http://adminmesuji.embuncode.com/api/image-gallery/"
+export const dokumenList = "http://adminmesuji.embuncode.com/api/dokumen?instansi_id=40"
+export const instansi = "http://adminmesuji.embuncode.com/api/instansi/detail/40"

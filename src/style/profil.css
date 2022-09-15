@@ -1,0 +1,59 @@
+.image {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.grip-article {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.aparat {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+.body-card {
+    padding: 20px;
+}
+
+.title-card {
+    font-size: 18;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.profil-header {
+    display: flex;
+    margin: 20px;
+    font-size: 3rem;
+    justify-content: center;
+  }
